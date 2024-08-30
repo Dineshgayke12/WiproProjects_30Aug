@@ -1,0 +1,16 @@
+class Employee{
+    constructor(firstname,lastName,empId,sal){
+    this.firstname=fName;
+    this.lastName=lName;
+    this.empId=eId;
+    this.salary=sal;
+    }
+}
+
+
+const emp1 = Employee("Rohit","Sharma","E01",76000);
+
+// document.getElementById("demo").innerHTML
+
+
+console.log(emp1.firstname + " " + emp1.lastName +" " +emp1.empId);
